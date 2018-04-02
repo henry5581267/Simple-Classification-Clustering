@@ -102,27 +102,6 @@ df2_car['lug_boot'] = (df2_car['lug_boot']-df2_car['lug_boot'].min()) / \
 df2_car['safety'] = (df2_car['safety']-df2_car['safety'].min()) / \
     (df2_car['safety'].max()-df2_car['safety'].min())
 
-
-# =============================================================================
-# Abalone Data Set
-# =============================================================================
-#df=pd.read_csv('Abalone.csv', sep=',',header=None)
-#df.columns = ['sex','length','diameter','height','whole weight','shucked weight','viscera weight','shell weight','rings']
-#df2 = df.loc[:,'length':'shell weight']
-#onehot_encoding = pd.get_dummies(df['sex'],prefix = 'sex')
-# Normalization
-#df2['length'] = (df2['length']-df2['length'].min())/(df2['length'].max()-df2['length'].min())
-#df2['diameter'] = (df2['diameter']-df2['diameter'].min())/(df2['diameter'].max()-df2['diameter'].min())
-#df2['height'] = (df2['height']-df2['height'].min())/(df2['height'].max()-df2['height'].min())
-#df2['whole weight'] = (df2['whole weight']-df2['whole weight'].min())/(df2['whole weight'].max()-df2['whole weight'].min())
-#df2['shucked weight'] = (df2['shucked weight']-df2['shucked weight'].min())/(df2['shucked weight'].max()-df2['shucked weight'].min())
-#df2['viscera weight'] = (df2['viscera weight']-df2['viscera weight'].min())/(df2['viscera weight'].max()-df2['viscera weight'].min())
-#df2['shell weight'] = (df2['shell weight']-df2['shell weight'].min())/(df2['shell weight'].max()-df2['shell weight'].min())
-#df2 = pd.concat([onehot_encoding,df2],axis =1)
-#mini = df['rings'].min()
-#maxi =  df['rings'].max()
-#df['rings'] = (df['rings'] - df['rings'].min())/(df['rings'].max()-df['rings'].min())
-
 # =============================================================================
 #                               Training Data
 # =============================================================================
