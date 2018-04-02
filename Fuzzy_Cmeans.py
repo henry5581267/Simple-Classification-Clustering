@@ -29,7 +29,7 @@ for n_cluster_CPBL in range(2, 11):
         X_CPBL, n_cluster_CPBL, 2,
         error=0.005,
         maxiter=10000000, init=None)
-    if n_cluster == 4:
+    if n_cluster_CPBL == 4:
         cluster_CPBL = u  # If number of cluster is 4
     # Store fpc values for later
     fpcs_CPBL.append(fpc)
@@ -53,12 +53,12 @@ cluster_result_car = [0, 0, 0, 0]
 X_car = (Data.x_car_data).transpose()  # Load car data
 # Hierarchical Clustering
 fpcs_car = []
-for n_cluster in range(2, 11):
+for n_cluster_car in range(2, 11):
     cntr, u, u0, d, jm, p, fpc = fuzz.cluster.cmeans(
-        X_car, n_cluster, 2,
+        X_car, n_cluster_car, 2,
         error=0.005,
         maxiter=10000000, init=None)
-    if n_cluster == 4:  # If number of cluster is 4
+    if n_cluster_car == 4:  # If number of cluster is 4
         cluster_car = u
     # Store fpc values for later
     fpcs_car.append(fpc)
