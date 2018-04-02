@@ -33,11 +33,6 @@ train_loss = np.zeros((num_epochs, 1))
 for i in range(num_epochs):
 
     dp.learning_rate = dp.update_learning_rate(i)
-
-    # Training with Batchsize
-#    for start, end in zip(range(0, len(x_train), batch_size),
-#                          range(batch_size, len(x_train), batch_size)):
-#       
     dp.run_train(x_train, y_train)
     update_train_data = i % 100
 
