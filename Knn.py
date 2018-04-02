@@ -84,32 +84,6 @@ for i in range(0, len(predict_car[:, 0])):
         class_car_result_true[2] += 1
     elif index_max_true == 3:
         class_car_result_true[3] += 1
-#custom_num_information = np.array([580,0.414,0.476,0.689])
-#custom_num_information= np.reshape(custom_num_information,[1,len(custom_num_information)])
-# Normalization
-# Numeric information
-#custom_num_information = (custom_num_information-Data.minix)/(Data.maxix-Data.minix)
-
-# onehot information
-# =============================================================================
-# Format 13 14 15 16 17 F_goabroad T_goabroad
-# =============================================================================
-#custom_onehot_information =np.array([0,0,0,1,0,1,0])
-#custom_onehot_information = np.reshape(custom_onehot_information,[1,len(custom_onehot_information)])
-#custom_inform = np.concatenate((custom_onehot_information,custom_num_information),axis = 1)
-#custom_inform  = np.reshape(custom_inform, [len(custom_inform[0,:]),1])
-#custom_inform = np.transpose(custom_inform)
-#custom_predict =  neigh.predict(custom_inform)
-
-# if np.argmax(custom_predict[0]) == 0:
-#    print("Predict in Lamigo")
-#
-# elif np.argmax(custom_predict[0]) == 1:
-#    print("Predict in Brothers")
-# elif np.argmax(custom_predict[0]) == 2:
-#    print("Predict in Fubon")
-# elif np.argmax(custom_predict[0]) == 3:
-#    print("Predict in Union")
 
 # =============================================================================
 #                           Plot Result
