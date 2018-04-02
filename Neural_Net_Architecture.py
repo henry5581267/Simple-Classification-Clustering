@@ -40,11 +40,6 @@ Y2 = tf.nn.tanh(tf.matmul(Y1, W2)+B2)
 Y3 = tf.nn.tanh(tf.matmul(Y2, W3) + B3)
 Y4 = tf.nn.tanh(tf.matmul(Y3, W4) + B4)
 Y = tf.nn.softmax(tf.matmul(Y4, WO)+BO)
-#Y1 = tf.nn.relu(tf.matmul(X, W1)+B1)
-#Y2 = tf.nn.relu(tf.matmul(Y1, W2)+B2)
-#Y3 = tf.nn.relu(tf.matmul(Y2, W3) + B3)
-#Y4 = tf.nn.relu(tf.matmul(Y3, W4) + B4)
-#Y = tf.matmul(Y4, WO)+BO
 
 # Define optimizer
 #loss = tf.reduce_sum(tf.abs(Y-Y_))
@@ -74,10 +69,6 @@ def run_train(x_train, y_train):
 
 def calc_loss(x_train, y_train):
     return sess.run(cross_entropy, feed_dict={X: x_train, Y_: y_train, lr: learning_rate})
-
-#def calc_loss(x_train, y_train):
-#    return sess.run(loss, feed_dict={X: x_train, Y_: y_train, lr: learning_rate})
-
 
 
 def run_infer(input_data):
