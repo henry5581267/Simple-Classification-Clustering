@@ -10,4 +10,4 @@ or you can use you own
 
 ## Requirement
 Python for coding enviromnent<br>
-Module tensorflow, sklearn, skfuzzy and pandas
+Modules tensorflow, sklearn, skfuzzy and pandas
