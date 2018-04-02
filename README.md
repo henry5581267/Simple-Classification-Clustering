@@ -4,7 +4,8 @@ Cluster using K-means, fuzzy C-means and Hierarchy<br>
 
 ## Datasets:
 1.Car.csv [link](https://archive.ics.uci.edu/ml/datasets/Car+Evaluation)<br>
-2.CPBL.csv (Chinese Professional Baseball League) [link](https://cpbl-plus.appspot.com/batting)
+2.CPBL1317_UTF8.csv (Chinese Professional Baseball League) [link](https://cpbl-plus.appspot.com/batting)<br>
+2013~2017 players that PA >=G*3.1
 <br>or use your own
 
 ## Requirement
