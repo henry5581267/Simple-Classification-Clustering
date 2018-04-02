@@ -118,7 +118,7 @@ plt.savefig('Fuzzy_Cmeans_Result.png')
 autolabel(rects1)
 
 # Car FPC
-num_cluster = range(2, n_cluster+1)
+num_cluster = range(2, n_cluster_car+1)
 fig, ax = plt.subplots()
 plt.plot(num_cluster, fpcs_car)
 ax.set_title("Fuzzy Partition Coefficient Car")
