@@ -6,7 +6,7 @@ Cluster using K-means, fuzzy C-means and Hierarchy<br>
 1.Car.csv [link](https://archive.ics.uci.edu/ml/datasets/Car+Evaluation)<br>
 2.CPBL.csv (Chinese Professional Baseball League) [link](https://cpbl-plus.appspot.com/batting)
 <br>
-or you can use you own
+or use your own
 
 ## Requirement
 Python for coding enviromnent<br>
