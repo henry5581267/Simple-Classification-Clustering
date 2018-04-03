@@ -23,7 +23,7 @@ Year|Player|AVG|OBP|SLG|Team(Class)|
 ------|------|------|------|--------|------|
 2016 |王柏融 |0.414  |0.476 |0.689   |Lamigo|
 
-I delete "Player" column and add "Once go minor league or NPB" to predict team of custom players 
+I delete "Player" column and add "Once go minor league or NPB" and predict team of custom players 
 
 ## Requirement
 Python coding enviromnent<br>
