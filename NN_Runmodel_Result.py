@@ -138,7 +138,7 @@ custom_num_information = np.reshape(
 # Normalization
 # Numeric information
 custom_num_information = (custom_num_information -
-                          Data.maxix_CPBL)/(Data.maxix_CPBL-Data.minix_CPBL)
+                          Data.minix_CPBL)/(Data.maxix_CPBL-Data.minix_CPBL)
 # onehot information
 # =============================================================================
 #                   Format 13 14 15 16 17 F_goabroad T_goabroad
