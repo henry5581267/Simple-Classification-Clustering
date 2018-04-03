@@ -23,10 +23,11 @@ Year|Player|AVG|OBP|SLG|Team(Class)|
 ------|------|------|------|--------|------|
 2016 |王柏融 |0.414  |0.476 |0.689   |Lamigo|
 
-I delete "Player" column and add "Once go minor league or NPB" 
-to predict custom players what team they will be 
+I delete "Player" column and add "Once go minor league or NPB" <br>
+to predict team of custom players 
+
 ## Requirement
-Python for coding enviromnent<br>
+Python coding enviromnent<br>
 Modules tensorflow, sklearn, skfuzzy and pandas
 ##Preprocessing
 Use max-min normalization
