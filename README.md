@@ -28,5 +28,6 @@ I delete "Player" column and add "Once go minor league or NPB" and predict team 
 ## Requirement
 Python coding enviromnent<br>
 Modules tensorflow, sklearn, skfuzzy and pandas
-##Preprocessing
+
+## Preprocessing
 Use max-min normalization
