@@ -17,7 +17,7 @@ med   |med   |3     |2     |small   |low|acc
 low   |low   |2     |      |        |   |unacc |
 
 
-**CPBL Batters :**
+
 
 Year|Player|AVG|OBP|SLG|Team(Class)|
 ------|------|------|------|--------|------|
