@@ -26,7 +26,7 @@ Year|Player|AVG|OBP|SLG|Team(Class)|
 I delete "Player" column and add "Once go minor league or NPB" column <br>
 to predict the team of custom players.
 
-## Requirement
+## Requiremen
 Python coding enviromnent<br>
 Modules tensorflow, sklearn, skfuzzy and pandas.
 
